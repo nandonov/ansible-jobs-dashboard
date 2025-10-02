@@ -9,6 +9,11 @@ A compact observability stack for Ansible playbooks. The FastAPI backend stores 
 - ⚙️ **Smart callback plugin** – optional job auto-creation, metadata injection, bearer auth, and TLS toggles configured via environment variables.
 - 🐳 **Easy to run** – use the macOS 26-native `container` CLI or Docker Compose; local dev stays simple either way.
 
+## Screenshots
+
+![Dashboard overview](docs/images/dashboard-overview.png)
+![Job detail view](docs/images/job-detail.png)
+
 ## Run on macOS 26 native containers (not fully tested!!!)
 
 If you're on macOS 26 (Apple silicon), follow [`docs/macos-container.md`](docs/macos-container.md) to build the images with Apple's first-party `container` CLI, create the named volume for SQLite, and run both services without Docker.
